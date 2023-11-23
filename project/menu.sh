@@ -1,4 +1,9 @@
 #!/bin/bash
+#izin Name & ip
+echo -e exp2='"'$bottoken'"' >> /usr/bin/menu/ipname.txt
+echo -e Name='"'$admin'"' >> /usr/bin/menu/ipname.txt
+echo -e IZIN_IP='"'$domain'"' >> /usr/bin/menu/ipname.txt
+echo -e DENIED='"'$sldomain'"' >> /usr/bin/menu/ipname.txt
 clear
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[42;1;93m                   ⇱ SERVER INFORMATION ⇲                     \E[0m"
